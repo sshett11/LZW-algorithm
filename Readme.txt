@@ -1,7 +1,6 @@
 Program Overview : Encoder takes the input file and compresses the file into bits as given by LZW algorithm. The decoder takes the compressed file and turns into an uncompressed readable file. 
 
-Data structure design: My program uses lists. Its a dynamic data structure in python and most used one. Lists can be concatenated, appended etc & list has better memory utilization over hash maps so when encoding/decoding
-large files using LZW Algorithm, Lists will perform better than hash maps.
+Data structure design: My program uses lists. Its a dynamic data structure in python and most used one. Lists can be concatenated, appended etc & list has better memory utilization over hash maps so when encoding/decoding large files using LZW Algorithm, Lists will perform better than hash maps.
 
 Files: Two files – LZWD.py and LZWE.py
 
